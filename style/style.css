@@ -124,7 +124,7 @@ body{ /*дані з Google Fonts, розділ CSS rules to specify families*/
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
-    text-decoration: no;
+    text-decoration: none;
 }
 
 
