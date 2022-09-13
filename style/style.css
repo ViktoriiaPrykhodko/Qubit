@@ -109,6 +109,73 @@ body{ /*дані з Google Fonts, розділ CSS rules to specify families*/
     margin-left: 9px;
 }
 
+.grow{ /*секція grow*/
+    margin: 136px auto; /*відступ від картинки до рожевого фону попередньої секції*/
+}
+
+.grow-title{ /*заголовок h2? секція grow*/
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #1C1C1C;
+    max-width: 415px;
+}
+
+.grow-flex{ /*секція grow, div що вміщає два діва з картинками*/
+    display: flex;/*елементи стають в рядок*/
+    gap: 34px; /*значення gap використовується для flex, відстань між двома дівами з картинками*/
+}
+
+.grow-element{ /*секція grow, дів, що містить в собі картинку*/
+    max-width: 333px;
+    text-align: center;
+}
+
+.grow-item{ /*секція grow, дів, що містить в собі h3 і p*/
+    padding: 35px 0 85px;
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5); /*тінь, обводка блоку з h3 і p*/
+    border-radius: 0px 0px 7px 7px;
+}
+
+.grow-pretitle{ /*секція grow, h3*/
+    font-size: 26px;
+    line-height: 22px;
+    margin-bottom: 28px;
+}
+
+.grow-text{ /*секція grow, p*/
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F2CFF;
+    max-width: 219px;
+    margin: 0 auto;
+}
+
+.commerce{ /*секція commerce*/
+    margin-bottom: 136px;
+    text-align: center;
+}
+
+.commerce-title{ /*секція commerce, h2*/
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 79px;
+}
+
+.commerce-pretitle{ /*секція commerce, h5*/
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    margin: 42px 0 16px;
+}
+
+.commerce-text{/*секція commerce, p*/
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 316px;
+}
+
 .footer{
     background: #20003C;
     padding: 58px 0;
